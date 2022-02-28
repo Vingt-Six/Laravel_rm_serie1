@@ -17,3 +17,7 @@ Route::get('/marouane', function () {
     $nom = "<h2>Marouane</h2>";
     return $nom;
 });
+
+Route::get('/{nbr}', function($nbr){
+    return view('welcome', compact('nbr'));
+});
