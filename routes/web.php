@@ -21,3 +21,7 @@ Route::get('/marouane', function () {
 Route::get('/{nbr}', function($nbr){
     return view('welcome', compact('nbr'));
 });
+
+Route::get('/exo3/{a}/{b}', function($a, $b){
+    return view('exo3', compact('a', 'b'));
+});
