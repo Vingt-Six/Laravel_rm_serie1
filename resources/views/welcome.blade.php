@@ -9,6 +9,13 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="/exo3/12/5">exo3</a></li>
+            <li><a href="/couleur/vert">exo4</a></li>
+        </ul>
+    </nav>
+
     @if (is_numeric($nbr))
         <p>{{ $nbr }} x 4 = {{ $nbr * 4 }}</p>
     @else

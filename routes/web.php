@@ -25,3 +25,7 @@ Route::get('/{nbr}', function($nbr){
 Route::get('/exo3/{a}/{b}', function($a, $b){
     return view('exo3', compact('a', 'b'));
 });
+
+Route::get('/couleur/{couleur}', function($couleur){
+    return view('couleur', compact('couleur'));
+});
